@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: about
 ---
 
-Hello World
+Hello Worldx
