@@ -1,0 +1,54 @@
+- personal:
+   - name: communication
+     point: 75
+   - name: creativity
+     point: 75
+   - name: teamwork
+     point: 80
+   - name: analytic
+     point: 90
+   - name: leadership
+     point: 80
+   - fast-learing:
+     point: 85
+- experienced:
+   - name: Laravel
+     point: 90
+   - name: Ruby on Rails
+     point: 85
+   - name: TDD
+     point: 90
+   - name: Agile
+     point: 90
+   - name: CSS
+     point: 90
+   - name: PostgreSQL
+     point: 80
+   - name: jQuery
+     point: 85
+   - name: MVC
+     point: 80
+   - name: Continous Integration
+     point: 80
+- mediocre:
+  - name: Android Native
+    point: 60
+  - name: React Native
+    point: 70
+  - name: Docker
+    point: 75
+  - name: Redis
+    point: 65
+  - name: Varnish
+    point: 65
+  - name: New Relic
+    point: 65
+- learning:
+  - name: SEO
+    point: 0
+  - name: Django
+    point: 0
+  - name: Infrastructure
+    point: 0
+  - name: Google Analytics
+    point: 0

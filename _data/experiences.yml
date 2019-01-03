@@ -1,0 +1,77 @@
+- app: Quick-count.com
+  year: 2011 - present
+  title: Creator
+  summary: >
+    Application for quick count the election
+  technologies:
+    - Php
+    - Laravel
+    - PostgreSQL
+    - Graphical diagram
+    - Gammu
+    - Phpunit
+    - Vagrant
+    - jQuery
+    - etc
+- app: Chordarena.com
+  year: 2012 - present
+  title: Creator
+  summary: >
+    Website full of chord guitar
+  technologies:
+    - Ruby
+    - Ruby on Rails
+    - PostgreSQL
+    - Rspec
+    - Docker
+    - Redis
+    - jQuery
+    - Google analytics
+    - etc
+- app: Chordarena Android
+  year: 2014 - present
+  title: Android Native Developer
+  summary: >
+    Android Application for Chordarena.com
+  technologies:
+    - Android Native
+- app: Liputan6.com, Bola.com, Bintang.com, Klikdokter.com
+  year: 2015 - 2017
+  title: Senior Full Stack Software Engineer
+  summary: >
+    News Website
+  technologies:
+    - Php
+    - Laravel
+    - PostgreSQL
+    - Codeception
+    - Redis
+    - xhp
+    - Gulp
+    - jQuery
+    - Varnish
+    - GTM
+    - Agile
+    - Pair Programming
+    - Thumbor
+    - Vagrant
+    - etc
+- app: News.bbm.com
+  year: 2017
+  title: Senior Full Stack Software Engineer
+  summary: >
+    News Website
+  technologies:
+    - Php
+    - Laravel
+    - PostgreSQL
+    - etc
+- app: Hitkal React Native
+  year: 2018 - present
+  title: React Native Developer
+  summary: >
+    Application for calorie counter
+  technologies:
+    - React Native
+    - Redux
+    - etc
