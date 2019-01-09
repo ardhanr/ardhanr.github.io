@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<section class="section">
+  <div class="container">
+    <div class="contact">
+      <img class="contact__image" src="assets/images/profile.jpg" alt="ardhan"/>
+      <div class="contact__text">
+        <p>
+          I'm currently working for my own product and in open position for another company too. If you are interested in hiring me for your project please use the form below to get in touch. Want to know how I work and what I can offer? Check out my project.
+        </p>
+        <div class="contact__social">
+          <h4>
+            You can also find me in this following channel:
+          </h4>
+          <ul class="contact__social__list">
+            <li class="contact__social__item">
+              <a class="contact__social__link" href="{{ site.data.profile.github_path }}">
+                <svg class="svg-icon contact__social__icon">
+                  <use xlink:href="/assets/icons/icomoon.svg#icon-github"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="contact__social__item">
+              <a class="contact__social__link" href="{{ site.data.profile.linkedin_path }}">
+                <svg class="svg-icon contact__social__icon contact__social__icon--linkedin">
+                  <use xlink:href="/assets/icons/icomoon.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <form class="contact__form" method="POST" action="https://formspree.io/ardhan.ariframadhan@gmail.com">
+        <div class="col--50">
+          <input class="contact__form__input" type="text" name="name" placeholder="Your Name">
+        </div>
+        <div class="col--50">
+          <input class="contact__form__input" type="email" name="email" placeholder="Your Email">
+        </div>
+        <div class="col--100">
+          <textarea class="contact__form__textarea" name="message" placeholder="Your Message"></textarea>
+        </div>
+        <div class="col--100">
+          <input class="contact__form__submit" type="submit" value="Send it">
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,63 @@
+.contact{
+  width: 2/3 * 100%;
+  margin: 4em auto;
+  &__image{
+    width: 8em;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  &__text{
+    margin-top: -3em;
+    padding: 3em 2em 2em;
+    background-color: $white-color;
+    margin-bottom: 1em;
+  }
+}
+
+.contact__form{
+  display: flex;
+  flex-wrap: wrap;
+  &__group{
+  }
+  &__input{
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid $white-color-dark;
+  }
+  &__textarea{
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid $white-color-dark;
+    height: 10em;
+  }
+  &__submit{
+    border: 1px solid $white-color-dark;
+    padding: 0.8em;
+    width: 100%;
+    background-color: $brand-color;
+    color: $white-color;
+    cursor: pointer;
+  }
+}
+
+.contact__social{
+  &__list{
+    display: flex;
+    justify-content: center;
+  }
+  &__item{
+    list-style: none;
+    display: flex;
+  }
+  &__link{
+    display: flex;
+  }
+  &__icon{
+    width: 3em;
+    height: 3em;
+    margin-right: 1em;
+    &--linkedin{
+      fill: #0e76a8;
+    }
+  }
+}
