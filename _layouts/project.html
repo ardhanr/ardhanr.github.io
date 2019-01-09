@@ -1,0 +1,86 @@
+---
+layout: default
+---
+<script>
+$(document).ready(function(){
+  $project = $('.project').isotope({ filter: '*' })
+  $('.project__filters').on( 'click', 'button', function() {
+  $('.project__filter').each(function(){
+    $(this).removeClass("project__filter--active");
+  });
+  var filterValue = $(this).attr('data-filter');
+  $(this).addClass("project__filter--active");
+  $project.isotope({ filter: filterValue });
+});
+});
+</script>
+
+<section class="section">
+  <div class="container">
+    <h1>Projects</h1>
+    <div class="subtitle">
+      My big project so far
+    </div>
+      <div class="project__filters">
+        <button class="project__filter project__filter--active" data-filter="*">all</button>
+        <button class="project__filter" data-filter=".iso-web">web</button>
+        <button class="project__filter" data-filter=".iso-mobile">mobile</button>
+        <button class="project__filter" data-filter=".iso-team">team</button>
+        <button class="project__filter" data-filter=".iso-solo">solo</button>
+        <button class="project__filter" data-filter=".iso-web.iso-team">web-team</button>
+        <button class="project__filter" data-filter=".iso-web.iso-solo">web-solo</button>
+        <button class="project__filter" data-filter=".iso-mobile.iso-solo">mobile-solo</button>
+      </div>
+    <div class="project">
+      {% for project in site.data.projects %}
+      <div class="project__item element-item {{ project.class }}">
+        <div class="project__item__image">
+          <img class="project__item__image__item" src="https://c.pxhere.com/photos/e4/37/code_computer_technology_html_screen-121859.jpg!d"/>
+          <div class="project__item__image__overlay">
+          </div>
+          <div class="project__item__image__title">
+            {{ project.name }}
+          </div>
+          <div class="project__item__image__details">
+            <p>
+              {{ project.summary }}
+            </p>
+            <a class="project__link" href="http://{{ project.link }}">visit site</a>
+          </div>
+        </div>
+        <div class="project__item__description">
+          <div class="project__item__title">
+            {{ project.title }}
+          </div>
+          <div class="project__item__tech">
+            {% for tag in project.technologies limit: 4 %}
+              <span class="project__item__tech-tag">
+                {{ tag }}
+              </span>
+            {% endfor %}
+              <span class="project__item__tech-tag">
+                etc
+              </span>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="technology">
+      <h2>Techonolgy I Used</h2>
+      {% for tech in site.data.images.technologies %}
+        <img class="technology__list"
+          src="assets/images/logo/techs/{{ tech }}.svg"
+          alt="{{ tech }}"/>
+      {% endfor %}
+      <h2>Concept I used</h2>
+      <ul class="concept">
+        <li class="concept__list">Test Driven Development</li>
+        <li class="concept__list">Agile Methodology</li>
+        <li class="concept__list">Continous Integration</li>
+        <li class="concept__list">Pair Programming</li>
+        <li class="concept__list">MVC</li>
+      </ul>
+    </div>
+  </div>
+</section>
