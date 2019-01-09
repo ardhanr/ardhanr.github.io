@@ -1,0 +1,25 @@
+.hire{
+  text-align: center;
+  color: $white-color;
+
+  &__image{
+    width: 8em;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  &__title{
+    padding: 0.5em;
+    font-size: 2em;
+  }
+  &__text{
+  }
+  &__button{
+    padding: 0.8em 1em;
+    background-color: $dark-button-color;
+    display: inline-block;
+    margin: 0.5em 0;
+    border-radius: 0.3em;
+    text-decoration: none;
+    color: $white-color;
+  }
+}

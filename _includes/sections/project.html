@@ -1,0 +1,46 @@
+<section class="section">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="subtitle">
+      My big project so far
+    </div>
+    <div class="project">
+      {% for project in site.data.projects limit: 3 %}
+      <div class="project__item element-item {{ project.class }}">
+        <div class="project__item__image">
+          <img class="project__item__image__item" src="https://c.pxhere.com/photos/e4/37/code_computer_technology_html_screen-121859.jpg!d"/>
+          <div class="project__item__image__overlay">
+          </div>
+          <div class="project__item__image__title">
+            {{ project.name }}
+          </div>
+          <div class="project__item__image__details">
+            <p>
+              {{ project.summary }}
+            </p>
+            <a class="project__link" href="http://{{ project.link }}">visit site</a>
+          </div>
+        </div>
+        <div class="project__item__description">
+          <div class="project__item__title">
+            {{ project.title }}
+          </div>
+          <div class="project__item__tech">
+            {% for tag in project.technologies limit: 4 %}
+              <span class="project__item__tech-tag">
+                {{ tag }}
+              </span>
+            {% endfor %}
+              <span class="project__item__tech-tag">
+                etc
+              </span>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      <div class="project__button">
+        <a class="project__button__link" href="/project">View All Project</a>
+      </div>
+    </div>
+  </div>
+</section>
