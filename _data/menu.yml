@@ -1,0 +1,6 @@
+- name: about
+  url: /about
+- name: project
+  url: /project
+- name: contact
+  url: /contact

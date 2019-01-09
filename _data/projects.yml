@@ -1,0 +1,221 @@
+- name: liputan6
+  title: Web Application
+  subtitle: news site
+  link: https://www.liputan6.com
+  technologies:
+    - Laravel
+    - PostgreSQL
+    - Codeception
+    - Redis
+    - xhp
+    - Gulp
+    - jQuery
+    - Varnish
+    - GTM
+    - Agile
+    - Pair Programming
+    - Thumbor
+    - Php
+    - Vagrant
+  summary: >
+    mantap
+  details: >
+    ok
+  year-start: 2015
+  year-end: 2017
+  class: iso-web iso-team
+- name: bbm news
+  title: Web Application
+  subtitle: news site
+  link: https://news.bbm.com
+  technologies:
+    - Laravel
+    - PostgreSQL
+    - Codeception
+    - Redis
+    - xhp
+    - Gulp
+    - jQuery
+    - Varnish
+    - GTM
+    - Agile
+    - Pair Programming
+    - Thumbor
+    - Vagrant
+    - Php
+  summary: >
+    mantap
+  details: >
+  year: 2016
+  class: iso-web iso-team
+- name: klikdokter
+  title: Web Application
+  subtitle: news site
+  link: https://www.klikdokter.com
+  technologies:
+    - Laravel
+    - PostgreSQL
+    - Codeception
+    - Redis
+    - xhp
+    - Gulp
+    - jQuery
+    - Varnish
+    - GTM
+    - Agile
+    - Pair Programming
+    - Thumbor
+    - Vagrant
+    - Php
+  summary: >
+    mantap
+  details: >
+  year-start: 2016
+  year-end: 2017
+  class: iso-web iso-team
+- name: bintang
+  title: Web Application
+  subtitle: news site
+  link: https://www.bintang.com
+  technologies:
+    - Laravel
+    - PostgreSQL
+    - Codeception
+    - Redis
+    - xhp
+    - Gulp
+    - jQuery
+    - Varnish
+    - GTM
+    - Agile
+    - Pair Programming
+    - Thumbor
+    - Vagrant
+    - Php
+  summary: >
+    mantap
+  details: >
+  year-start: 2015
+  year-end: 2017
+  class: iso-web iso-team
+- name: bola
+  title: Web Application
+  subtitle: news site
+  link: https://www.bola.com
+  technologies:
+    - Laravel
+    - PostgreSQL
+    - Codeception
+    - Redis
+    - xhp
+    - Gulp
+    - jQuery
+    - Varnish
+    - GTM
+    - Agile
+    - Pair Programming
+    - Thumbor
+    - Vagrant
+    - Php
+  summary: >
+    mantap
+  details: >
+  year-start: 2015
+  year-end: 2017
+  class: iso-web iso-team
+- name: klikdokter
+  title: Web Application
+  subtitle: news site
+  link: https://www.klikdokter.com
+  technologies:
+    - Laravel
+    - PostgreSQL
+    - Codeception
+    - Redis
+    - xhp
+    - Gulp
+    - jQuery
+    - Varnish
+    - GTM
+    - Agile
+    - Pair Programming
+    - Thumbor
+    - Vagrant
+    - Php
+  summary: >
+    mantap
+  details: >
+  year-start: 2016
+  year-end: 2017
+  class: iso-web iso-team
+- name: quickcount
+  title: Web Application
+  subtitle: web application for quick count election
+  link: http://quick-count.com
+  technologies:
+    - Laravel
+    - PostgreSQL
+    - Phpunit
+    - jQuery
+    - Vagrant
+    - Gammu
+  summary: >
+    mantap
+  details: >
+  year: 2010 - present
+  class: iso-web iso-solo
+- name: chordarena
+  title: Web Application
+  subtitle: web application for guitar chords & tabs
+  link: http://chordarena.com
+  technologies:
+    - Ruby on Rails
+    - Rspec
+    - PostgreSQL
+    - New Relic
+    - Google Analytics
+    - GTM
+    - Ruby
+    - Redis
+    - jQuery
+    - docker
+    - docker compose
+    - MySQL
+    - Php
+    - Laravel
+  summary: >
+    mantap
+  details: >
+  year-start: 2016
+  year-end: present
+  class: iso-web iso-solo
+- name: hitkal
+  title: Mobile Android Application
+  subtitle: android app for counting calorie meals
+  link: https://play.google.com/store/apps/details?id=comwebardhanwebhitungkalori
+  technologies:
+    - React Native
+    - Redux
+    - Sqlite
+    - Redux Thunk
+    - Npm
+  summary: >
+    mantap
+  details: >
+  year-start: 2015
+  year-end: present
+  class: iso-mobile iso-solo
+- name: chordarena
+  title: Mobile Android Application
+  subtitle: android app for chordarenawebcom
+  link: https://play.google.com/store/apps/details?id=comwebardhanwebchordarena
+  technologies:
+    - Android Native
+    - Ruby on Rails
+    - Ruby
+  summary: >
+    mantap
+  details: >
+  year-start: 2012
+  year-end: present
+  class: iso-mobile iso-solo
