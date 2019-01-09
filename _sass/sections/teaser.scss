@@ -1,0 +1,38 @@
+.teaser{
+  display: flex;
+  color: $white-color;
+
+  &__image{
+    width: 20em;
+    height: 20em;
+    margin-right: 3em;
+    border: 5px solid $white-color;
+  }
+
+  &__text{
+  }
+
+  &__hello{
+    font-size: 1.6em;
+  }
+
+  &__name{
+    font-size: 2.4em;
+    font-weight: 700;
+    padding: 10px 0;
+  }
+
+  &__details{
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+
+  &__button{
+    padding: 0.8em 1em;
+    background-color: $dark-button-color;
+    display: inline-block;
+    border-radius: 0.3em;
+    text-decoration: none;
+    color: $white-color;
+  }
+}

@@ -1,0 +1,39 @@
+.skill{
+  display: flex;
+  &__box{
+    width: calc(100%/3);
+    background-color: $white-color;
+    margin-right: 1em;
+    box-shadow: 0 0.125rem 0.25rem $shadow-color;
+    &__title{
+      text-align: center;
+      font-size: 1.2em;
+      padding: 1em;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    &__list{
+      margin: 1em 0;
+      padding: 0;
+      list-style: none;
+    }
+    &__item{
+      line-height: 1.6em;
+      text-align: center;
+      padding: 0.2em;
+    }
+    &__icon{
+      width: 6em;
+      height: 6em;
+      margin: 0 auto 1em;
+      padding: 1.5em;
+      background-color: $brand-color;
+      border-radius: 50%;
+      &__item{
+        width: 3em;
+        height: 3em;
+        vertical-align: middle;
+      }
+    }
+  }
+}
