@@ -1,0 +1,31 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1em;
+  background-color: $brand-color-dark;
+  &__logo{
+    padding: 1em;
+    text-decoration: none;
+    color: $white-color;
+    text-transform: uppercase;
+  }
+
+  &__menu{
+    padding: 0;
+    margin: 0;
+    &__item{
+      list-style: none;
+      display: inline-block;
+      &--active{
+        border-bottom: 4px solid $white-color;
+      }
+    }
+    &__link{
+      display: inline-block;
+      text-decoration: none;
+      color: $white-color;
+      padding: 1em;
+      text-transform: uppercase;
+    }
+  }
+}

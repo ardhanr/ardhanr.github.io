@@ -1,0 +1,25 @@
+.footer{
+  background-color: $dark-color;
+  text-align: center;
+  padding: 1em;
+  &__list{
+    margin: 0;
+    list-style: none;
+  }
+
+  &__item{
+    display: inline-block;
+    margin-right: 1em;
+  }
+
+  &__social{
+    width: 2em;
+    height: 2em;
+    &__icon{
+      width: 2em;
+      height: 2em;
+      vertical-align: middle;
+    }
+  }
+
+}

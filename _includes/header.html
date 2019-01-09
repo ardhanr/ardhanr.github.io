@@ -1,2 +1,15 @@
 <header class="header">
+  <a class="header__logo" href="#">ardhan</a>
+  <ul class="header__menu">
+    {% for menu in site.data.menu %}
+      {% if page.url contains menu.name %}
+        {% assign class = "header__menu__item header__menu__item--active" %}
+      {% else %}
+        {% assign class = "header__menu__item" %}
+      {% endif %}
+      <li class="{{ class }}">
+        <a class="header__menu__link" href="{{menu.url}}">{{menu.name}}</a>
+      </li>
+    {% endfor %}
+  </ul>
 </header>

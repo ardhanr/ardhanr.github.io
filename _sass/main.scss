@@ -8,17 +8,26 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$text-color:       #58677c !default;
+
+$brand-color: #2196F3 !default;
+$brand-color-brown:      #5d4037 !default;
+$brand-color-green:      #00c853 !default;
+$brand-color-ra: #1de9b6 !default;
+$brand-color-light:      lighten($brand-color, 40%) !default;
+$brand-color-dark: darken($brand-color, 10%) !default;
 
 $grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
-$orange-color:     #f66a0a !default;
-$table-text-align: left !default;
+$dark-color: #333 !default;
+$hover-color: rgba(0,0,0,0.1) !default;
+$overlay-color: rgba(0,0,0,0.5) !default;
+$shadow-color: rgba(0,0,0,0.075) !default;
+$white-color: #fff !default;
+$white-color-dark: #ccc !default;
+$dark-button-color: rgba(0,0,0,0.5) !default;
+$background-color: #f7f8fa !default;
 
-$content-width:    800px !default;
+$content-width:    1120px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
@@ -32,12 +41,11 @@ $on-large:         $on-laptop !default;
   }
 }
 
-@mixin relative-font-size($ratio) {
-  font-size: $base-font-size * $ratio;
-}
-
 @import
+  "vendor/normalize",
   "base",
   "layout",
-  "highlighting"
+  "highlighting",
+  "header",
+  "footer"
 ;

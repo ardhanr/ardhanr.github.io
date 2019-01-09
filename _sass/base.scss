@@ -1,5 +1,67 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body{
   font-family: $base-font-family;
   font-size: $base-font-size;
   color: $text-color;
+  background-color: $background-color;
+  line-height: $base-line-height;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+.container{
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+.section{
+  width: 100%;
+  padding: 2em 0;
+  &--blue{
+    background-color: $brand-color;
+  }
+  &--white{
+    background-color: $white-color;
+  }
+}
+
+h1,h2,h3,h4,h5,h6 {
+  text-align: center;
+}
+.subtitle{
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.svg-icon{
+  &--blue{
+    fill: $brand-color;
+  }
+  &--white{
+    fill: $white-color;
+  }
+}
+
+.col{
+  &--50{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 1em;
+  }
+  &--100{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 1em;
+  }
 }
