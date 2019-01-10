@@ -18,7 +18,9 @@
     - Php
     - Vagrant
   summary: >
-    mantap
+    One of most popular news website with more than 20k real time active user
+  work: >
+    My work is focus on develop new feature and performance optimization. With such high active users, it is sure is challanging.
   details: >
     ok
   year-start: 2015
@@ -44,7 +46,9 @@
     - Vagrant
     - Php
   summary: >
-    mantap
+    Integrated news web app inside BBM application with 300 millions active user a month.
+  work: >
+    I help bbm news in early stage of its release. It crawls news from popular news website.
   details: >
   year: 2016
   class: iso-web iso-team
@@ -68,7 +72,9 @@
     - Vagrant
     - Php
   summary: >
-    mantap
+    One of the best health news website with integrated live chat consultation.
+  work: >
+    My work is focus on develop new feature and performance. Nice ui and analytics help this site to grow.
   details: >
   year-start: 2016
   year-end: 2017
@@ -93,7 +99,9 @@
     - Vagrant
     - Php
   summary: >
-    mantap
+    One of most popular news entertainment website with 8k real time active user.
+  work: >
+    My work is focus on develop new feature and performance.
   details: >
   year-start: 2015
   year-end: 2017
@@ -118,34 +126,11 @@
     - Vagrant
     - Php
   summary: >
-    mantap
+    One of most popular news sport website with 5k real time active user.
+  work: >
+    My work is focus on develop new feature and performance.
   details: >
   year-start: 2015
-  year-end: 2017
-  class: iso-web iso-team
-- name: klikdokter
-  title: Web Application
-  subtitle: news site
-  link: https://www.klikdokter.com
-  technologies:
-    - Laravel
-    - PostgreSQL
-    - Codeception
-    - Redis
-    - xhp
-    - Gulp
-    - jQuery
-    - Varnish
-    - GTM
-    - Agile
-    - Pair Programming
-    - Thumbor
-    - Vagrant
-    - Php
-  summary: >
-    mantap
-  details: >
-  year-start: 2016
   year-end: 2017
   class: iso-web iso-team
 - name: quickcount
@@ -160,7 +145,9 @@
     - Vagrant
     - Gammu
   summary: >
-    mantap
+    Web app for quick count, calculate all sms-based user input and change it to graph and table data.
+  work: >
+    I created this app alone with help from statician expert, from sms gateway, worker, database to the actual website.
   details: >
   year: 2010 - present
   class: iso-web iso-solo
@@ -184,7 +171,9 @@
     - Php
     - Laravel
   summary: >
-    mantap
+    Chord gitar website for learning and guiding people from playing guitar.
+  work: >
+    I created this website alone with newest technology as possible. Many technology involves in here to achieve most stable, optimize and user friendly app.
   details: >
   year-start: 2016
   year-end: present
@@ -200,7 +189,9 @@
     - Redux Thunk
     - Npm
   summary: >
-    mantap
+    Mobile app for calculate your every day food calories.
+  work: >
+    I created this app with react native to make it multiplatform ready.
   details: >
   year-start: 2015
   year-end: present
@@ -214,7 +205,9 @@
     - Ruby on Rails
     - Ruby
   summary: >
-    mantap
+    Mobile app for chord guitar based on chordarena.com website.
+  work: >
+    I created this app with android native and sqlite. This app simple and still growing.
   details: >
   year-start: 2012
   year-end: present
