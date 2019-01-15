@@ -44,7 +44,6 @@ $on-large:         $on-laptop !default;
 @import
   "vendor/normalize",
   "base",
-  "layout",
   "highlighting",
   "header",
   "sections/teaser",
@@ -54,5 +53,6 @@ $on-large:         $on-laptop !default;
   "sections/hire",
   "layouts/project",
   "layouts/contact",
-  "footer"
+  "footer",
+  "layout"
 ;
