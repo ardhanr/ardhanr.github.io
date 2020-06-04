@@ -1,7 +1,7 @@
 - name: liputan6
   title: Web Application
   subtitle: news site
-  link: https://www.liputan6.com
+  link: www.liputan6.com
   technologies:
     - Laravel
     - PostgreSQL
@@ -29,7 +29,7 @@
 - name: bbm news
   title: Web Application
   subtitle: news site
-  link: https://news.bbm.com
+  link: news.bbm.com
   technologies:
     - Laravel
     - PostgreSQL
@@ -55,7 +55,7 @@
 - name: klikdokter
   title: Web Application
   subtitle: news site
-  link: https://www.klikdokter.com
+  link: www.klikdokter.com
   technologies:
     - Laravel
     - PostgreSQL
@@ -74,15 +74,15 @@
   summary: >
     One of the best health news website with integrated live chat consultation.
   work: >
-    My work is focus on develop new feature and performance. Nice ui and analytics help this site to grow.
+    lead team to develop new feature and increasing performance
   details: >
-  year-start: 2016
-  year-end: 2017
-  class: iso-web iso-team
+  year-start: 2019
+  year-end: 2020
+  class: iso-web iso-team iso-lead
 - name: bintang
   title: Web Application
   subtitle: news site
-  link: https://www.bintang.com
+  link: www.bintang.com
   technologies:
     - Laravel
     - PostgreSQL
@@ -109,7 +109,7 @@
 - name: bola
   title: Web Application
   subtitle: news site
-  link: https://www.bola.com
+  link: www.bola.com
   technologies:
     - Laravel
     - PostgreSQL
@@ -136,7 +136,7 @@
 - name: quickcount
   title: Web Application
   subtitle: web application for quick count election
-  link: http://quick-count.com
+  link: quick-count.com
   technologies:
     - Laravel
     - PostgreSQL
@@ -154,7 +154,7 @@
 - name: chordarena
   title: Web Application
   subtitle: web application for guitar chords & tabs
-  link: http://chordarena.com
+  link: chordarena.com
   technologies:
     - Ruby on Rails
     - Rspec
@@ -181,7 +181,7 @@
 - name: hitkal
   title: Mobile Android Application
   subtitle: android app for counting calorie meals
-  link: https://play.google.com/store/apps/details?id=comwebardhanwebhitungkalori
+  link: play.google.com/store/apps/details?id=comwebardhanwebhitungkalori
   technologies:
     - React Native
     - Redux
@@ -199,7 +199,7 @@
 - name: chordarena
   title: Mobile Android Application
   subtitle: android app for chordarenawebcom
-  link: https://play.google.com/store/apps/details?id=comwebardhanwebchordarena
+  link: play.google.com/store/apps/details?id=comwebardhanwebchordarena
   technologies:
     - Android Native
     - Ruby on Rails
